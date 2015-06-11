@@ -1,4 +1,4 @@
-![](http://f.cl.ly/items/391y4708420P0H001k1G/meteoric.png)
+![](http://www.finewallpaperes.com/wp-content/uploads/2013/03/three-finger-like-friend-love-photo-and-love-HD-wallpapers.jpg)
 
 # Dexterissim Application 
 
