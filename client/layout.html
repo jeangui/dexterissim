@@ -1,0 +1,81 @@
+<template name="layout">
+  {{#ionBody}}
+
+    {{#ionSideMenuContainer}}
+
+      {{#ionSideMenus}}
+
+        {{#ionSideMenu}}
+          <div class="bar bar-header bar-dark">
+            <h1 class="title">Dexterissisme</h1>
+          </div>
+          <div class="content has-header">
+            <div class="list">
+              <div class="item item-icon-right">
+                <b>Votre Profile</b>
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Vos informations
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Vos notifications 
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Vos contacts 
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Vos objets connectés
+              </div>
+			  <div class="item item-icon-right">
+                <b>Fonctionnalités</b>
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Dashboard
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Angel
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Mood
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Domo
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Musica
+              </div>
+			  <div class="item item-icon-right">
+                <b>A propos</b>
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Feedback
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Partager
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Conditions Générales
+              </div>
+			  <div class="item item-icon-right" data-ion-menu-close>
+                Vie Privée
+              </div>
+            </div>
+          </div>
+        {{/ionSideMenu}}
+
+      {{/ionSideMenus}}
+
+      {{#ionSideMenuContent}}
+
+        {{> ionNavBar class="bar-positive"}}
+
+        {{#ionNavView}}
+          {{> yield}}
+        {{/ionNavView}}
+
+      {{/ionSideMenuContent}}
+
+    {{/ionSideMenuContainer}}
+
+  {{/ionBody}}
+</template>
